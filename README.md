@@ -50,9 +50,9 @@ The following image shows the web application's appearance and functionality:
 
 ## The Deployment:
 
-[The Repo:](https://github.com/NovaLanceBrittany/HW-04-Blog-Start-Up)
+[The Repo:](https://github.com/NovaLanceBrittany/HW-06-Weather-Dashboard)
 
-[The Deployment:](https://novalancebrittany.github.io/HW-04-Blog-Start-Up/)
+[The Deployment:](pages-link)
 
 
 
