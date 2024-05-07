@@ -12,6 +12,9 @@ Your challenge is to build a weather dashboard that will run in the browser and 
 - OpenWeatherMap API
     - [5 Day Weather Forecast](https://openweathermap.org/forecast5)
 
+- Bootstrap
+- Custom CSS
+
 
 ## Project Conduction:
 As a traveler I want to see the weather outlook for multiple cities so I can plan a trip accordingly.
@@ -53,17 +56,3 @@ The following image shows the web application's appearance and functionality:
 [The Repo:](https://github.com/NovaLanceBrittany/HW-06-Weather-Dashboard)
 
 [The Deployment:](pages-link)
-
-
-
-
-
-
-
-
- Tips: 
-Use the [5 Day Weather Forecast](https://openweathermap.org/forecast5) to retrieve weather data for cities. The base URL should look like the following: `https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}`. After registering for a new API key, you may need to wait up to 2 hours for that API key to activate.
-
-**Hint**: Using the 5 Day Weather Forecast API, you'll notice that you will need to pass in coordinates instead of just a city name. Using the OpenWeatherMap APIs, how could we retrieve geographical coordinates given a city name?
-
-You will use `localStorage` to store any persistent data. For more information on how to work with the OpenWeather API, refer to the [Full-Stack Blog on how to use API keys](https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys).

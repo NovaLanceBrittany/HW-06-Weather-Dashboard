@@ -20,18 +20,27 @@
 </head>
 
 <body>
+
+  <header>
+    <h1>Weather Forecast</h1>
+  </header>
   
-  <div class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh bg-primary">
-    <div class="col-12 col-md-3 bg-light p-3">
-      <h1 class="text-primary">Search for a City:</h1>
+  <div class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh">
+    <div class="col-12 col-md-3 p-3">
+      <h1>Search for a City:</h1>
       <form id="search-form">
         <input id="search-input-city" type="text" placeholder="Minneapolis">
        
         <button class="btn">Search</button>
       </form>
 
-    <div class="col-12 col-md-9 p-3 text-light 5dayforcast-title">
+    <div class="col-12 col-md-9 p-3 5dayforcast-title">
+
+      <!-- The 'Today's Weather' Card Appending js -->
+      <div id="todayWeather"></div>
+
       <h2 id="result-title">5-Day Forecast</h2>
+      <!-- 'Days of the Week' Weather Cards -->
       <div id="weather-result">
 
       </div>
