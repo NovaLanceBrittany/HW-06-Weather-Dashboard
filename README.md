@@ -49,11 +49,11 @@ The following image shows the web application's appearance and functionality:
 
 ![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Woodbury.](./assets/img/start-page.png)
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Woodbury.](./assets/img/search-results-png.png)
+![This displays the results](./assets/img/search-results-png.png)
 
 
 ## The Deployment:
 
 [The Repo:](https://github.com/NovaLanceBrittany/HW-06-Weather-Dashboard)
 
-[The Deployment:](pages-link)
+[The Deployment:](https://novalancebrittany.github.io/HW-06-Weather-Dashboard/)
