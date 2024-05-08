@@ -1,3 +1,17 @@
+:root {
+  --Onyx: #35393C;
+  --Asparagus: #73956F;
+  --White: #FFFFFF;
+  --TigersEye: #A45C14;
+  --PersianIndigo: #381375;
+}
+
+
+* {
+  background-color: var(--Onyx);
+}
+
+
 
 h1 {
   background: #A45C14;
@@ -5,27 +19,62 @@ h1 {
   background: -webkit-linear-gradient(left, #A45C14 0%, #381375 100%);
   background: linear-gradient(to right, #A45C14 0%, #381375 100%);
   color: white;
+
+  border: 5px dashed var(--Asparagus);
+  padding: 10px;
+}
+
+
+body {
+  border: 5px dashed var(--Asparagus);
+  padding: 10px;
+  height: 100%;
+}
+
+/* search input box */
+#serach-imput-city {
+  background-color: var(--White);
+}
+
+/* form button */
+.btn {
+  color: rgb(255, 255, 255); font-size: 17px; line-height: 17px; padding: 6px; border-radius: 12px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: radial-gradient(rgb(164, 92, 20) 0%, rgb(56, 19, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px dashed rgb(164, 164, 164); display: inline-block;
+}
+
+.btn:hover {
+background: #A45C14; 
+}
+
+.bnt:active {
+background: #381375; 
 }
 
 
 
+/* Todays Weather Card */
+#todayWeather {
+  background-color: var(--Asparagus);
+  color: white;
+
+}
+
+/* 5 Day Weather - Title */
+#result-title {
+  background: #A45C14;
+  background: -moz-linear-gradient(left, #A45C14 0%, #381375 100%);
+  background: -webkit-linear-gradient(left, #A45C14 0%, #381375 100%);
+  background: linear-gradient(to right, #A45C14 0%, #381375 100%);
+  color: white;
+  border: 5px dashed var(--Asparagus);
+  padding: 15px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 5 Day Weather */
+#weather-result {
+  background-color: var(--Asparagus);
+  color: white;
+}
 
 
 /* ==== Weather Icons below this line to the end. ==== */
@@ -34,7 +83,7 @@ h1 {
 
   /* Clear Sky */
   .weather-icon01d {
-  background-image: url(https://openweathermap.org/img/wn/01d.png);
+    background-image: url(https://openweathermap.org/img/wn/01d.png);
   }
 
   /* Few Clouds */

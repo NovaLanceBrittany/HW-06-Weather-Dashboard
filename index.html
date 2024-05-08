@@ -16,36 +16,41 @@
   <!-- CSS link tags go here  -->
   <link rel="stylesheet" href="./assets/css/stylesheet.css"
 
-  <title>7 Day Forecast</title>
 </head>
 
 <body>
+  <title>5 Day Forecast</title>
 
   <header>
-    <h1>Weather Forecast</h1>
+    <h1>Day Weather Forecast</h1>
   </header>
   
-  <div class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh">
-    <div class="col-12 col-md-3 p-3">
-      <h1>Search for a City:</h1>
-      <form id="search-form">
-        <input id="search-input-city" type="text" placeholder="Minneapolis">
-       
-        <button class="btn">Search</button>
-      </form>
-
-    <div class="col-12 col-md-9 p-3 5dayforcast-title">
-
-      <!-- The 'Today's Weather' Card Appending js -->
-      <div id="todayWeather"></div>
-
-      <h2 id="result-title">5-Day Forecast</h2>
-      <!-- 'Days of the Week' Weather Cards -->
-      <div id="weather-result">
-
+  
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-3">
+      <div class="flex-row align-start align-content-start">
+        <h1>Search for a City:</h1>
+        <form id="search-form">
+          <input id="search-input-city" type="text" placeholder="Minneapolis">
+        
+          <button class="btn">Search</button>
+        </form>
       </div>
     </div>
+    
+    <div class="col-12 col-md-9 p-3 5dayforcast-title">
+      
+      <!-- The 'Today's Weather' Card Appending js -->
+      <span id="todayWeather"></span>
+      
+      <h2 id="result-title">~ 5-Day Forecast ~</h2>
+      <!-- 'Days of the Week' Weather Cards -->
+      <div id="weather-result"></div>
+    </div>
   </div>
+</div>
+
 
    <!-- jquery and Bootstrap JS script tags  -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
@@ -53,7 +58,6 @@
 
   <!-- JS script tags  -->
   <script src="./assets/js/script.js"></script>
-  <script src="./assets/js/weather-cards.js"></script>
 
 </body>
 </html>

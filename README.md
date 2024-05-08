@@ -47,8 +47,9 @@ As a traveler I want to see the weather outlook for multiple cities so I can pla
 ## Mock-Up:
 The following image shows the web application's appearance and functionality:
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Woodbury.](./assets/img/start-page.png)
 
+![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Woodbury.](./assets/img/search-results-png.png)
 
 
 ## The Deployment:
